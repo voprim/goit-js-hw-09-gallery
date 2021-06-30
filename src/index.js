@@ -1,71 +1,71 @@
 import './sass/main.scss';
 
+import img1small from './images/himilayan-blue-poppy-4202825__340.jpg';
+import img1norm from './images/himilayan-blue-poppy-4202825_1280.jpg';
+import img2small from './images/container-4203677__340.jpg';
+import img2norm from './images/container-4203677_1280.jpg';
+import img3small from './images/beach-4206785__340.jpg';
+import img3norm from './images/beach-4206785_1280.jpg'; 
+import img4small from './images/flowers-1835619__340.jpg';
+import img4norm from './images/flowers-1835619_1280.jpg';  
+import img5small from './images/mountains-3674334__340.jpg';
+import img5norm from './images/mountains-3674334_1280.jpg'; 
+import img6small from './images/landscape-4208571__340.jpg';
+import img6norm from './images/landscape-4208571_1280.jpg';  
+import img7small from './images/the-alps-4209272__340.jpg';
+import img7norm from './images/the-alps-4209272_1280.jpg';  
+import img8small from './images/landscape-4208255__340.jpg';
+import img8norm from './images/landscape-4208255_1280.jpg';  
+import img9small from './images/lighthouse-4208843__340.jpg';
+import img9norm from './images/lighthouse-4208843_1280.jpg';
+
 const galleryItems = [
     {
-        preview:
-            'images/himilayan-blue-poppy-4202825_340.jpg',
-        original:
-            'images/himilayan-blue-poppy-4202825_1280.jpg',
+        preview: img1small,
+        original: img1norm,
         description: 'Hokkaido Flower',
     },
     {
-        preview:
-            'images/container-4203677__340.jpg',
-        original:
-            'images/container-4203677_1280.jpg',
+        preview: img2small,
+        original: img2norm,
         description: 'Container Haulage Freight',
     },
     {
-        preview:
-            'images/beach-4206785__340.jpg',
-        original:
-            'images/beach-4206785_1280.jpg',
+        preview: img3small,
+        original: img3norm,
         description: 'Aerial Beach View',
     },
     {
-        preview:
-            'images/flowers-1835619__340.jpg',
-        original:
-            'images/flowers-1835619_1280.jpg',
+        preview: img4small,
+        original: img4norm,
         description: 'Flower Blooms',
     },
     {
-        preview:
-            'images/mountains-3674334__340.jpg',
-        original:
-            'images/mountains-3674334_1280.jpg',
+        preview: img5small,
+        original: img5norm,
         description: 'Alpine Mountains',
     },
     {
-        preview:
-            'images/landscape-4208571__340.jpg',
-        original:
-            'images/landscape-4208571_1280.jpg',
+        preview: img6small,
+        original: img6norm,
         description: 'Mountain Lake Sailing',
     },
     {
-        preview:
-            'images/the-alps-4209272__340.jpg',
-        original:
-            'images/the-alps-4209272_1280.jpg',
+        preview: img7small,
+        original: img7norm,
         description: 'Alpine Spring Meadows',
     },
     {
-        preview:
-            'images/landscape-4208255__340.jpg',
-        original:
-            'images/landscape-4208255_1280.jpg',
+        preview: img8small,
+        original: img8norm,
         description: 'Nature Landscape',
     },
     {
-        preview:
-            'images/lighthouse-4208843__340.jpg',
-        original:
-            'images/lighthouse-4208843_1280.jpg',
+        preview: img9small,
+        original: img9norm,
         description: 'Lighthouse Coast Sea',
     },
 ];
-
 
 const refs = {
     galleryList: document.querySelector('.js-gallery'), //общий родитель картинок
